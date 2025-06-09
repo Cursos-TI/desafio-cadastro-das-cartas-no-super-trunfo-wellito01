@@ -9,7 +9,9 @@ int main (){
     float area = 693.8;
     float pib = 63;
     int pturisticos = 89;
-
+    float divisao;
+    divisao = populacao / area;
+    
     printf("Paises\n");
 
     printf("Carta:%d\n",carta);
@@ -20,6 +22,8 @@ int main (){
     printf("Área:%fKm²\n",area);
     printf("PIB:%f bilhões de reais\n",pib);
     printf("Pontos de turisticos:%d\n",pturisticos);
+    printf("Densidade populacional:%f",divisao);
+
 
     int carta2 = 2 ;
     char estado2[20] = "B";
@@ -29,6 +33,8 @@ int main (){
     float area2 = 432;
     float pib2 = 98;
     int pturisticos2 = 35;
+    float divisao2;
+    divisao2 = populacao2 / area2;
     
     printf("\n");
     printf("Carta:%d\n",carta2);
@@ -39,6 +45,7 @@ int main (){
     printf("Área:%fKm²\n",area2);
     printf("PIB:%f bilhões de reais\n",pib2);
     printf("Pontos de turisticos:%d\n",pturisticos2);
+    printf("Densidade populacional:%f",divisao2);
 
     
     return 0;
